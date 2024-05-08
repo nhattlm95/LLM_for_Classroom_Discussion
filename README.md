@@ -8,6 +8,10 @@ pip install -r requirements.txt
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip3 install "fschat[model_worker,webui]"
 ```
+
+Create a folder named `models` to put the models in.
+Create a folder named `data` where the transcripts are stored.
+
 Download the vicuna-7b-16k model from [Huggingface](https://huggingface.co/lmsys/vicuna-7b-v1.5-16k), rename it to `vicuna-7b-v1.5-16k` and put it to `models` folder (models/vicuna-7b-v1.5-16k)
 
 Download the llama2 model from [Huggingface](https://huggingface.co/meta-llama/Llama-2-7b-hf/tree/main), rename it to `Llama-2-7b-hf` and put it to `models` folder (models/Llama-2-7b-hf)
